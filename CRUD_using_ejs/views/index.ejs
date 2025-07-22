@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div class="w-full h-screen bg-zinc-900 p-10 text-white">
+  Content here
+</div> -->
+
+    <div class="w-full h-full bg-zinc-900 p-10 text-white">
+      <div class="items-center mb-10">
+        <button
+          class="bg-blue-500 border-2 border-zinc-800 px-4 py-2 rounded-md hover:bg-zinc-600 transition-all duration-700 ease-in-out"
+        >
+          <a href="/read">Read User</a>
+        </button>
+      </div>
+      <h1 class="text-3xl tracking-tighter mb-3">Create Users</h1>
+      <form action="/create" method="POST">
+        <input
+          class="px-5 py-2 border-2 border-zinc-800 outline-none rounded-lg bg-transparent"
+          placeholder="Enter your Name here..."
+          type="text"
+          name="name"
+        />
+        <input
+          class="px-5 py-2 border-2 border-zinc-800 outline-none rounded-lg bg-transparent"
+          placeholder="E-mail"
+          type="text"
+          name="email"
+        />
+        <input
+          class="px-5 py-2 border-2 border-zinc-800 outline-none rounded-lg bg-transparent"
+          placeholder="image url.."
+          type="text"
+          name="image"
+        />
+        <input
+          class="px-5 py-2 border-2 border-zinc-800 ml-3 outline-none rounded-lg bg-blue-500 hover:bg-zinc-600 transition-all duration-700 ease-in-out cursor-pointer"
+          type="submit"
+          value="create user"
+        />
+      </form>
+    </div>
+  </body>
+</html>

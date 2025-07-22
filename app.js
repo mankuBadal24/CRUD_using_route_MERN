@@ -37,7 +37,7 @@ res.send(readOne);
 });
 
 app.get("/delete",async(req,res)=>{
-let deleteData=await userModal.findOneAndDelete({username:"Badal"})
+let deleteData=await userModal.findOneAndDelete({username:"Badal"});
 res.send(deleteData);
 })
 

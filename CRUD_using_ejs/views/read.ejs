@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div class="w-full h-screen bg-zinc-900 p-10 text-white">
+  Content here
+</div> -->
+
+    <div class="w-full h-full bg-zinc-900 p-10 text-white">
+      <div class="items-center mb-10">
+        <button
+          class="bg-blue-500 border-2 border-zinc-800 px-4 py-2 rounded-md hover:bg-zinc-600 transition-all duration-700 ease-in-out"
+        >
+          <a href="/">Home</a>
+        </button>
+      </div>
+      <h1 class="text-3xl tracking-tighter mb-3">All Users</h1>
+      <div class="users flex flex-wrap gap-3">
+        <% users.forEach(function(user){ %>
+        <div class="user w-72 p-4 bg-zinc-800 rounded-lg">
+          <div class="w-full h-52 rounded-lg bg-zinc-500 overflow-hidden">
+            <img class="object-cover w-full h-full rounded-lg"" src="<%= user.image %>" alt="">
+          </div>
+          <h3 class="text-xl mt-3 tracking-tighter"><%= user.name %></h3>
+          <h5 class="text-zinc-400"><%= user.email %></h5>
+          <div class="flex gap-3">
+            <a href="" class="text-zinc-200"> Edit user</a>
+            <a href="/delete/<%= user._id %>" class="text-green-500"> Delete user</a>
+          </div>
+        </div>
+        <% }); %>
+        <!-- <div class="user w-72 p-4 bg-zinc-800 rounded-lg">
+          <div class="w-full h-52 rounded-lg bg-zinc-500"></div>
+          <h3 class="text-xl mt-3 tracking-tighter">Mayank Badal</h3>
+          <h5 class="text-zinc-400">mayank@gmail.com</h5>
+          <div class="flex gap-3">
+            <a href="" class="text-zinc-200"> Edit user</a>
+            <a href="" class="text-green-500"> Delete user</a>
+          </div>
+        </div>
+        <div class="user w-72 p-4 bg-zinc-800 rounded-lg">
+          <div class="w-full h-52 rounded-lg bg-zinc-500"></div>
+          <h3 class="text-xl mt-3 tracking-tighter">Mayank Badal</h3>
+          <h5 class="text-zinc-400">mayank@gmail.com</h5>
+          <div class="flex gap-3">
+            <a href="" class="text-zinc-200"> Edit user</a>
+            <a href="" class="text-green-500"> Delete user</a>
+          </div>
+        </div>
+        <div class="user w-72 p-4 bg-zinc-800 rounded-lg">
+          <div class="w-full h-52 rounded-lg bg-zinc-500"></div>
+          <h3 class="text-xl mt-3 tracking-tighter">Mayank Badal</h3>
+          <h5 class="text-zinc-400">mayank@gmail.com</h5>
+          <div class="flex gap-3">
+            <a href="" class="text-zinc-200"> Edit user</a>
+            <a href="" class="text-green-500"> Delete user</a>
+          </div>
+        </div>
+        <div class="user w-72 p-4 bg-zinc-800 rounded-lg">
+          <div class="w-full h-52 rounded-lg bg-zinc-500"></div>
+          <h3 class="text-xl mt-3 tracking-tighter">Mayank Badal</h3>
+          <h5 class="text-zinc-400">mayank@gmail.com</h5>
+          <div class="flex gap-3">
+            <a href="" class="text-zinc-200"> Edit user</a>
+            <a href="" class="text-green-500"> Delete user</a>
+          </div>
+        </div>
+        <div class="user w-72 p-4 bg-zinc-800 rounded-lg">
+          <div class="w-full h-52 rounded-lg bg-zinc-500"></div>
+          <h3 class="text-xl mt-3 tracking-tighter">Mayank Badal</h3>
+          <h5 class="text-zinc-400">mayank@gmail.com</h5>
+          <div class="flex gap-3">
+            <a href="" class="text-zinc-200"> Edit user</a>
+            <a href="" class="text-green-500"> Delete user</a>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </body>
+</html>

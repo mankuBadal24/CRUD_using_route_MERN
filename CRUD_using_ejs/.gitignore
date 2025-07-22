@@ -1,0 +1,19 @@
+# Node modules directory
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore editor/project-specific files
+.vscode/
+.idea/
+*.sublime-workspace
